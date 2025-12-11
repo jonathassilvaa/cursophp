@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <?php 
@@ -19,14 +20,15 @@
             <input type="number" name="v2" id="v2" value="<?= $val2 ?>" required>
             <input type="submit" value="Enviar">
         </form>
-
+    </main>
         <section>
             <h2>Resultado da soma</h2>
             <?php 
                 echo "<p>O Resultado é: <strong>". $val1 + $val2 ."</strong></p>";
             ?>
-        </section>
-    </main>
+
+            
+    
 
 </body>
 </html>
